@@ -1,0 +1,7 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Fragment>
+        <ComponentGroup Id="Maui" Directory="INSTALLFOLDER">
+            <Files Include="..\Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\**" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

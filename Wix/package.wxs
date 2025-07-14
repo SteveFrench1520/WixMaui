@@ -1,0 +1,12 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package
+            Name="MauiApp"
+            Manufacturer="Steve"
+            Version="1.0.0"
+            UpgradeCode="11f25fac-26d0-4955-b519-92a0e0c8d41e">
+        <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+        <Feature Id="Main">
+            <ComponentGroupRef Id="Maui" />
+        </Feature>
+    </Package>
+</Wix>
